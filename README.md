@@ -2,15 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+First clone this repository.
 
-In the project directory, you can run:
+$ git clone https://github.com/yashdeepagrawal/Todo-App.git
 
-### `npm start`
+Install dependencies. Make sure you already have nodejs & npm installed in your system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+$ npm install # or yarn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run it
 
+$ npm start # or yarn start
