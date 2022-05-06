@@ -6,11 +6,6 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-body {
-  /* background: #e8dfc2; */
-  background: #1c1f25;
-
-}
 
 .todo-app {
   display: flex;
