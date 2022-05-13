@@ -6,14 +6,13 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-
 .todo-app {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 520px;
+  max-width: 520px;
   min-height: 600px;
-  background: whitesmoke ;
+  background: whitesmoke;
 
   text-align: center;
   margin: 80px auto;
@@ -22,18 +21,17 @@
 }
 
 .todo-app-dark {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 520px;
-    min-height: 600px;
-    background: #2d333b;
-    text-align: center;
-    margin: 80px auto;
-    border-radius: 12px;
-    padding-bottom: 32px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 520px;
+  min-height: 600px;
+  background: #2d333b;
+  text-align: center;
+  margin: 80px auto;
+  border-radius: 12px;
+  padding-bottom: 32px;
+}
 
 h1 {
   margin: 32px 0;
@@ -42,10 +40,8 @@ h1 {
 }
 
 .todolist-dark h1 {
-  
-    color: white;
-  }
-  
+  color: white;
+}
 
 .complete {
   text-decoration: line-through;
@@ -62,19 +58,19 @@ h1 {
   border-radius: 4px 0 0 4px;
   border: 2px solid;
   outline: none;
-  width: 320px;
+  width: 60%;
   background: transparent;
   color: black;
 }
 
-.todo-input-dark{
-    padding: 14px 32px 14px 16px;
-    border-radius: 4px 0 0 4px;
-    border: 2px solid;
-    outline: none;
-    width: 320px;
-    background: transparent;
-    color: white;
+.todo-input-dark {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid;
+  outline: none;
+  max-width: 320px;
+  background: transparent;
+  color: white;
 }
 .todo-input::placeholder {
   color: grey;
@@ -83,6 +79,7 @@ h1 {
 .todo-button {
   padding: 16px;
   border: none;
+  margin: auto;
   margin-left: 10px;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
@@ -94,17 +91,14 @@ h1 {
 
 .todo-input.edit {
   border: 2px solid darkgoldenrod;
- 
- 
 }
 .todo-input-dark.edit {
   border: 2px solid darkgoldenrod;
   color: white;
 }
 
-
 .todo-button.edit {
- background: rgb(192, 143, 18);
+  background: rgb(192, 143, 18);
   padding: 16px 22px;
 }
 
@@ -155,22 +149,17 @@ h1 {
   color: #fff;
 }
 
-.toggle-button{
-    padding: 10px;
-    border: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-    outline: none;
-    background: darkslategrey;
-    color: pink;
-    text-transform: capitalize;
-    margin-top: -50px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    float: right; 
-
+.toggle-button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: darkslategrey;
+  color: pink;
+  text-transform: capitalize;
+  margin-top: -50px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  float: right;
 }
-
-
-  
-
